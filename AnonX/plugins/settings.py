@@ -10,7 +10,7 @@ from pyrogram.types import (
 )
 
 from config import (BANNED_USERS, CLEANMODE_DELETE_MINS,
-                    MUSIC_BOT_NAME, OWNER_ID)
+                    MUSIC_BOT_NAME, OWNER_ID, START_IMG_URL)
 from strings import get_command
 from AnonX import app
 from AnonX.utils.database import (add_nonadmin_chat,
