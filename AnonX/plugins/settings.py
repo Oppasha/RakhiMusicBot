@@ -49,6 +49,16 @@ async def settings_mar(client, message: Message, _):
     )
 
 
+@app.on_callback_query(filters.regex("lund_lele") & ~BANNED_USERS)
+@languageCB
+async def gib_repo(client, CallbackQuery, _):
+    await CallbackQuery.edit_message_media(
+        InputMediaVideo("https://te.legra.ph/file/e6471d19bd04a5095436a.mp4"),
+        reply_markup=InlineKeyboardMarkup(
+            [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper")]]
+        ),
+    )
+
 @app.on_callback_query(
     filters.regex("settings_helper") & ~BANNED_USERS
 )
