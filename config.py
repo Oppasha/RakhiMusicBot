@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "18231743"))
-API_HASH = getenv("API_HASH", "0630e814f8baf4fdb9ba9df351aac555")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6293284481:AAGRw6ZRo9QD8aG61eNH9O4Qhl7Tm8iGqqs")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://misszara:misszara@cluster0.2olykek.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001673839409"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ᴍɪss ♡ ƶᴀʀΛ˼ 🫧🕊️⃝")
 
@@ -45,8 +45,8 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "6b4b0bc786d64c5cbaa4019ddc122cb9")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "0c215aab90bb4ae89e2c57a77667281a")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "")
 
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQAsu0iEE4Qt9shPQt4wSCo2iUqsOU8Nbf9ixS8BGbBkDGHqhdxk2eVpQRejbNFTcckd9Sxh1qNeUfC-hNdl-O1Mv_xBEUiuo1LU3HBfVGk3kRRWyDBnm9IeEzOv3BF9KS5RBSh2M95VVmg324AzcbDIcYgZ2Czo-M8bViy_sMaWrjWl2L4MwMX0aOX0Qe7yu8C3SpB2tHnam8F5tpTFu2-SeLCC_oOMtXCw9XZuQe8VbW-OUyyvH-RctrcKFz2ArZ5dtQ7yTJhxOqUMVj2tc8jzRLWtVD4tEsMvHleaVpo0etv4keZBCmyAA4AnQpNTLmJ3fv1-E5VmvOmjBPp7n4dDAAAAAWMwEfgA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
