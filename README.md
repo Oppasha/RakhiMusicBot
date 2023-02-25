@@ -1,9 +1,9 @@
 <h2 align="center">
-    ──「 ˹ᴍɪss ♡ ƶᴀʀΛ˼ 🫧🕊️⃝ 」──
+    ──「 ᴀʟɴ ᴍᴜsɪᴄ ʙᴏᴛ」──
 </h2>
 
 <p align="center">
-  <img src="https://te.legra.ph/file/d75647ca5bce15f64bb08.jpg">
+  <img src="https://te.legra.ph/file/ae77f13938eceb4840b56.jpg">
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://te.legra.ph/file/1cc5c4ac601aa0a4db149.jpg">
+  <img src="https://te.legra.ph/file/ae77f13938eceb4840b56.jpg">
 </p>
 
 <h3 align="center">
