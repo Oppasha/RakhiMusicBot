@@ -39,12 +39,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="⚙️ᴄᴏᴍᴍᴀɴᴅs⚙️", callback_data="settings_back_helper"
             ),
             InlineKeyboardButton(
-                text="✨ sᴏᴜʀᴄᴇ ✨", url="https://t.me/loadingcheats"
+                text="🤍ᴄʜᴀɴɴᴇʟ🤍", url="https://t.me/loadingcheats"
             )
         ],
         [
             InlineKeyboardButton(
-                text="🖤sᴜᴩᴩᴏʀᴛ🖤", url=config.SUPPORT_GROUP
+                text="🖤ɢʀᴏᴜᴘ🖤", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
                 text="🥶ᴅᴇᴠᴇʟᴏᴘᴇʀ🥶", user_id=OWNER
